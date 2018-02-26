@@ -1,7 +1,11 @@
 const path = require('path');
 
 module.exports = {
+<<<<<<< 16bd60f489d7c3816837e00158fc90fcf3abad30
   entry: './src/views/index.js',
+=======
+  entry: './views/index.js',
+>>>>>>> main structure
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'public/')
