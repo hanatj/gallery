@@ -1,7 +1,11 @@
+<<<<<<< a76a95c33da91878f6d7b2742c7c3171214126a3
 <<<<<<< 16bd60f489d7c3816837e00158fc90fcf3abad30
 const app = require('./app');
 =======
 const app = require('./app').server;
+>>>>>>> main structure
+=======
+const app = require('./app');
 >>>>>>> main structure
 
 app.listen(process.env.PORT || 4000, () => {

@@ -2,12 +2,16 @@ const express = require('express');
 const path = require('path');
 const routes = require('./controllers/api/v1/index');
 const bodyParser = require('body-parser');
+<<<<<<< a76a95c33da91878f6d7b2742c7c3171214126a3
 <<<<<<< 16bd60f489d7c3816837e00158fc90fcf3abad30
 const app = express();
 =======
 const cookieParser = require('cookie-parser');
 const app = express();
 app.use(cookieParser());
+>>>>>>> main structure
+=======
+const app = express();
 >>>>>>> main structure
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
@@ -33,10 +37,14 @@ app.use((err, req, res) => {
 });
 app.set('port', process.env.PORT || 4000);
 
+<<<<<<< a76a95c33da91878f6d7b2742c7c3171214126a3
 <<<<<<< 16bd60f489d7c3816837e00158fc90fcf3abad30
 module.exports= server;
 =======
 module.exports= {
   server
 };
+>>>>>>> main structure
+=======
+module.exports= server;
 >>>>>>> main structure
