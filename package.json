@@ -17,15 +17,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Walidmash/react-redux-example.git"
+    "url": "git+https://github.com/Walidmash/gallery-hana.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Walidmash/react-redux-example/issues"
+    "url": "https://github.com/Walidmash/gallery-hana/issues"
   },
-  "homepage": "https://github.com/Walidmash/react-redux-example#readme",
+  "homepage": "https://github.com/Walidmash/gallery-hana#readme",
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
