@@ -1,0 +1,14 @@
+.itemCard__details{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.ant-card-meta-detail > div:not(:last-child) {
+     margin-bottom: 0px !important;
+}
+.ant-card-meta-title {
+    font-weight: 700;
+}

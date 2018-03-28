@@ -1,0 +1,81 @@
+.designer__cover.ant-layout-header{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/images/back2.jpeg);
+  background-position-y: -322px;
+  height: 400px;
+
+}
+.designer__main{
+  margin: -60px 30px 0px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  background-color:#fff;
+  /* box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14),
+              0 6px 30px 5px rgba(0, 0, 0, 0.12),
+                0 8px 10px -5px rgba(0, 0, 0, 0.2); */
+  box-shadow: 6px 0 4px -4px rgba(0, 0, 0, 0.12),
+ 0 -5px 5px -5px rgba(0, 0, 0, 0.12),
+   -6px 0 4px -4px rgba(0, 0, 0, 0.12);
+}
+
+.designer__description{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.designer__bio{
+  margin: 15px auto 0;
+  max-width: 700px;
+}
+.designer__img{
+  max-width: 160px;
+  width: 100%;
+  margin: -80px 0px 0px;
+  box-shadow: 0 5px 15px -8px rgba(0, 0, 0, 0.24),
+              0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.designer__work{
+  padding:30px;
+}
+.designer__card{
+  margin: 5px;
+}
+.designer__name{
+  margin-top: 15px;
+}
+.title{
+  font-weight: 700;
+  line-height: 61px;
+  color: #3C4858;
+}
+.title-collection{
+  margin-bottom: 15px;
+  margin-left: 75px;
+}
+.bio{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: normal;
+  margin: 0;
+}
+.subtitle{
+  line-height: 24px;
+  font-weight: 700;
+  font-size: 16px;
+  font-style: normal;
+  font-stretch: normal;
+  margin: 0px;
+}
+.designer__email{
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: normal;
+  margin: 0;
+}
+.email{
+  color: blue;
+}
