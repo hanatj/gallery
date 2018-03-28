@@ -1,0 +1,9 @@
+.itemCard__details{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.ant-card-meta-detail > div:not(:last-child) {
+     margin-bottom: 0px !important;
+}

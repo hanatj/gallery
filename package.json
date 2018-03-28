@@ -1,32 +1,29 @@
 {
-  "name": "Gallery",
+  "name": "gallery",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./src/index.js",
     "start:watch": "NODE_ENV=development nodemon -q src/index.js",
     "heroku-postbuild": "webpack -p --config webpack.config.js --progress",
     "build": "webpack && babel src --out-dir lib --copy-files",
     "dev:build": "webpack --watch",
-    "dev:start": "nodemon --exec babel-node ./src/",
-    "lint": "eslint src"
+    "dev:start": "nodemon --exec babel-node ./src/"
   },
-  "pre-commit": [
-    "lint"
-  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Walidmash/gallery-hana.git"
+    "url": "git+ssh://git@github.com/hanatj/gallery.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Walidmash/gallery-hana/issues"
+    "url": "https://github.com/hanatj/gallery/issues"
   },
-  "homepage": "https://github.com/Walidmash/gallery-hana#readme",
+  "homepage": "https://github.com/hanatj/gallery#readme",
   "dependencies": {
+    "antd": "^3.3.3",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.0.1",
@@ -35,6 +32,7 @@
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
     "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
     "css-loader": "^0.28.7",
     "eslint": "^4.8.0",
     "eslint-config-semistandard": "^11.0.0",
