@@ -5,7 +5,7 @@ import ItemCard from '../itemCard/';
 import Layout from 'antd/lib/layout';
 import PropTypes from 'prop-types';
 import { gallery } from '../../../../db.json';
-
+// import { fetchProjectsList, filterProjects } from '../../actions/project-actions';
 import './index.css';
 
 class Category extends Component {

@@ -15,7 +15,7 @@ class Profile extends Component {
           <div className='designer__description'>
             <img className='designer__img' src='/images/avatar.jpg' />
             <div className='designer__name'>
-              <h1 className='title'>Randa Magdi</h1>
+              <h1 className='title'>Someone</h1>
               <h3 className='subtitle'>Passionate about art, nature, photography, animals and music.</h3>
             </div>
             <div className='designer__bio'>
@@ -25,7 +25,7 @@ class Profile extends Component {
                 on almost anything. T-shirts, tea-towels, mugs, canvas (to stretch and frame)
                 and drink coolers to name a few.</p>
               <p className='designer__email'>To get a t-shirt or something else printed with my images contact
-                <span className='email'> admin@sillybirds.com.au </span> . The prices are very affordable unique images.</p>
+                <span className='email'> admin@xxx.com.au </span> . The prices are very affordable unique images.</p>
             </div>
           </div>
         </div>
